@@ -155,11 +155,8 @@ app.delete("/books/:id", async(req,res) => {
     }
 });
 
-<<<<<<< Updated upstream
 module.exports = app;
-=======
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
->>>>>>> Stashed changes
